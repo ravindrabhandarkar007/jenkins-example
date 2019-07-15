@@ -15,7 +15,7 @@ pipeline {
                 echo "testing stage"  
                 }
             }
-        }
+        
 
 
         stage ('Deployment Stage') {
@@ -24,5 +24,5 @@ pipeline {
                 }
             }
         }
-    }
+    
 }
